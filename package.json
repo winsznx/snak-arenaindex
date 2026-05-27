@@ -1,8 +1,8 @@
 {
-  "name": "@winsznx/snak-arenaindex",
+  "name": "@winsznx/snakboard",
   "version": "0.1.0",
   "private": true,
-  "description": "Live arena directory for Snak — joinable matches, prize pools, deadlines, slot counts. Companion to @winsznx/snakboard.",
+  "description": "Arena escrow SDK for Snak on Celo (cUSD) + Stacks. Match creation, score digest, prize-split math, strike streak counter, rank badge tiers.",
   "license": "MIT",
   "author": "winsznx",
   "homepage": "https://github.com/winsznx/snak-arenaindex",
@@ -10,7 +10,14 @@
     "type": "git",
     "url": "https://github.com/winsznx/snak-arenaindex.git"
   },
-  "keywords": ["snak", "arena", "index", "celo", "stacks", "directory"],
+  "keywords": [
+    "snak",
+    "arena",
+    "battle-royale",
+    "celo",
+    "stacks",
+    "escrow"
+  ],
   "type": "module",
   "engines": {
     "node": ">=20"
